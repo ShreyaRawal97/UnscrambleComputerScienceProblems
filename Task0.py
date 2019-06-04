@@ -36,9 +36,5 @@ print("Last record of calls,", calls[lenCalls-1][0], "calls", calls[lenCalls-1][
 
 #Big-O Analysis
 """
-For this task, I wrote two functions getTime and getSeconds.
-Number of operations for opening the csv files ~ 6
-Number of operations to define lengths of csv files ~ 2
-Number of operations for getTime ~ 2
-Number of operations for getSeconds ~ 2
+
 """
