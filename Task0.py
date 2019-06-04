@@ -32,7 +32,7 @@ def getSeconds(str):
     return seconds
 
 print("First record of texts,", texts[0][0], "texts", texts[0][1],  "at time", getTime(texts[0][2]))
-print("Last record of calls,", calls[lenCalls-1][0], "calls", calls[lenCalls-1][1], "at time", getTime(calls[lenCalls-1][2]), "lasting", getSeconds(calls[lenCalls-1][2]),"seconds")
+print("Last record of calls,", calls[lenCalls-1][0], "calls", calls[lenCalls-1][1], "at time", getTime(calls[lenCalls-1][2]), "lasting", calls[lenCalls-1][3],"seconds")
 
 #Big-O Analysis
 """
